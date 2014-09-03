@@ -1,0 +1,3 @@
+WALL, FLOOR = range(2)
+UP, RIGHT, DOWN, LEFT = range(4)
+DIRECTIONS = [UP, RIGHT, DOWN, LEFT]
