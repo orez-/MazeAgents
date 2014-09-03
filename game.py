@@ -47,7 +47,7 @@ class AgentWrapper(object):
 class Game(object):
     def __init__(self, agent_cls, maze_cls, num_agents, width, height):
         # self.maze = board.RectangleLabyrinth(width, height)
-        self.maze = maze_cls(min(width, height) // 4)
+        self.maze = maze_cls(width, height)
         self.agents = [  # TODO: distribute this to prevent bullshit
             AgentWrapper(self.maze, agent_cls(), x, y)
             for x, y in [

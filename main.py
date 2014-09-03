@@ -4,4 +4,4 @@ import game
 
 
 if __name__ == "__main__":
-    game.Game(right.RightAgent, labyrinth.CirclesLabyrinth, 2, 28, 28).game_loop()
+    game.Game(right.RightAgent, labyrinth.CirclesLabyrinth, 2, 56, 56).game_loop()
